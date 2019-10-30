@@ -1,3 +1,32 @@
-= Tit
+= Comandi
+Prima di ogni comando deve essere presente il comando git
 
-sono inutile
+= Impostare nome
+git config --global user.name "Nome"
+
+= Impostare email
+git config --global user.email Email
+
+= Copiare dalla cartella online 
+git clone indirizzo
+
+= Informazioni
+git status
+
+= Aggiungere file 
+git add file
+
+= Salvare in locale
+git commit -m "frase"
+
+= Invia i commenti locali al server remoto
+git push
+
+= Recupero di dati dal server remoto 
+git fetch
+
+= Recupera e integra i dati remoti nel progetto
+git pull
+
+= Confronta i file attuali con quelli presenti nell' ultimo commit
+git diff
